@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #25c6b8, #2bb0e6);
+    min-height: 100vh;
+    padding: 30px;
+}
+
+.dashboard {
+    max-width: 1100px;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 25px;
+}
+
+.top-section {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    flex: 1;
+    min-width: 300px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.card.large {
+    flex: 2;
+}
+
+.card h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+.button-row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background: #4f9cff;
+    color: #fff;
+}
+
+.btn-secondary {
+    background: #7aa7d9;
+    color: #fff;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    opacity: 0.85;
+}
+
+.empty-text {
+    color: #777;
+    margin-top: 20px;
+}
+
+.dom-demo {
+    margin-top: 25px;
+}
+.dom-demo p{
+    margin-top: 10px;
+    padding: 12px 14px;
+    border: 1px solid #2e2f31;  
+    border-radius: 6px;
+    background: #ffffff;
+    color: #333;
+    font-weight: 500;
+}

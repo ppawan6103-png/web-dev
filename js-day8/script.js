@@ -1,19 +1,19 @@
-// create element
-const para = document.createElement("p");
-para.textContent="This is a dynamically added paragraph";
-console.log(para);
+function handleclick(){
+    document.getElementById("btn").textContent = "clicked"
+}
 
-// append element
-document.getElementById("content").appendChild(para)
+const addText=()=>{
+    document.createElement("h2").textContent="this is a sub heading"
 
-// remove element
-document.querySelector("#content p").remove()
+    const image = document.createElement("img");
+    image.setAttribute("src","https://thumbs.dreamstime.com/b/autumn-nature-landscape-colorful-forest-autumn-nature-landscape-colorful-forest-morning-sunlight-131400332.jpg");
 
-const image = document.createElement("img")
 
-image.setAttribute("src","https://cdn.sanity.io/images/3do82whm/next/a69e3ba2441d35dd1a7945e826064708f30c10a9-1000x667.jpg")
+    document.getElementById("render").append(h2)
+    document.getElementById("render").append(image)
+}
 
-image.setAttribute("alt","Javascript")
+//  addEventListener("eventtype",function)
 
-const gallery = document.getElementById("gallery");
-gallery.appendChild(image);
+document.getElementById("task2").addEventListener("click", handleclick)
+
